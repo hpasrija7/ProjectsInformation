@@ -10,7 +10,7 @@ const App = () => {
   const cardsPerPage = 4; 
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/items')
+    fetch('https://projectdetailsbackend.onrender.com/api/items')
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Network response was not ok: ${response.status} - ${response.statusText}`);

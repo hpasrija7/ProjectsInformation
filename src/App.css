@@ -147,3 +147,9 @@
 .clear-button:hover {
   background-color: #0056b3; 
 }
+
+.card.enlarged {
+  transform: scale(1.2); /* Increase the size of the card */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  z-index: 1; /* Ensure enlarged cards are on top of others */
+}
